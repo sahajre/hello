@@ -6,3 +6,7 @@ import "fmt"
 func Hello(s string) {
 	fmt.Println(s)
 }
+
+func HelloNew() {
+	fmt.Println("Hello, world")
+}
