@@ -11,3 +11,7 @@ func Hello(s string) {
 func HelloNew() {
 	fmt.Println("Hello, world")
 }
+
+func newFunc() {
+	fmt.Println("this func is useless as not exported an not called anywhere in this file")
+}
