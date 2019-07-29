@@ -7,6 +7,7 @@ func Hello(s string) {
 	fmt.Println(s)
 }
 
+//HelloNew prints hello message
 func HelloNew() {
 	fmt.Println("Hello, world")
 }
